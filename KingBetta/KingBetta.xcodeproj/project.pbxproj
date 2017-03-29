@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0941AFE91E8B7D9800F0044D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0941AFE81E8B7D9800F0044D /* AppDelegate.swift */; };
-		0941AFEB1E8B7D9800F0044D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0941AFEA1E8B7D9800F0044D /* ViewController.swift */; };
 		0941AFEE1E8B7D9800F0044D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0941AFEC1E8B7D9800F0044D /* Main.storyboard */; };
 		0941AFF01E8B7D9800F0044D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0941AFEF1E8B7D9800F0044D /* Assets.xcassets */; };
 		0941AFF31E8B7D9800F0044D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0941AFF11E8B7D9800F0044D /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		0941AFE51E8B7D9800F0044D /* KingBetta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingBetta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0941AFE81E8B7D9800F0044D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0941AFEA1E8B7D9800F0044D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0941AFED1E8B7D9800F0044D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0941AFEF1E8B7D9800F0044D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0941AFF21E8B7D9800F0044D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				0941AFE81E8B7D9800F0044D /* AppDelegate.swift */,
-				0941AFEA1E8B7D9800F0044D /* ViewController.swift */,
+				0941B0371E8B8FAB00F0044D /* Class */,
 				0941AFEC1E8B7D9800F0044D /* Main.storyboard */,
 				0941AFEF1E8B7D9800F0044D /* Assets.xcassets */,
 				0941AFF11E8B7D9800F0044D /* LaunchScreen.storyboard */,
@@ -123,6 +121,221 @@
 				0941B00A1E8B7D9800F0044D /* Info.plist */,
 			);
 			path = KingBettaUITests;
+			sourceTree = "<group>";
+		};
+		0941B0371E8B8FAB00F0044D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0941B0381E8B8FAB00F0044D /* Follow */,
+				0941B03D1E8B8FAB00F0044D /* Home */,
+				0941B0421E8B8FAB00F0044D /* Live */,
+				0941B0471E8B8FAB00F0044D /* Main */,
+				0941B04C1E8B8FAB00F0044D /* Profile */,
+				0941B0511E8B8FAB00F0044D /* Tools */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		0941B0381E8B8FAB00F0044D /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				0941B0391E8B8FAB00F0044D /* Controller */,
+				0941B03A1E8B8FAB00F0044D /* Model */,
+				0941B03B1E8B8FAB00F0044D /* Tools */,
+				0941B03C1E8B8FAB00F0044D /* View */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		0941B0391E8B8FAB00F0044D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0941B03A1E8B8FAB00F0044D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0941B03B1E8B8FAB00F0044D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0941B03C1E8B8FAB00F0044D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0941B03D1E8B8FAB00F0044D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0941B03E1E8B8FAB00F0044D /* Controller */,
+				0941B03F1E8B8FAB00F0044D /* Model */,
+				0941B0401E8B8FAB00F0044D /* Tools */,
+				0941B0411E8B8FAB00F0044D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0941B03E1E8B8FAB00F0044D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0941B03F1E8B8FAB00F0044D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0941B0401E8B8FAB00F0044D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0941B0411E8B8FAB00F0044D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0941B0421E8B8FAB00F0044D /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				0941B0431E8B8FAB00F0044D /* Controller */,
+				0941B0441E8B8FAB00F0044D /* Model */,
+				0941B0451E8B8FAB00F0044D /* Tools */,
+				0941B0461E8B8FAB00F0044D /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		0941B0431E8B8FAB00F0044D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0941B0441E8B8FAB00F0044D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0941B0451E8B8FAB00F0044D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0941B0461E8B8FAB00F0044D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0941B0471E8B8FAB00F0044D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0941B0481E8B8FAB00F0044D /* Controller */,
+				0941B0491E8B8FAB00F0044D /* Model */,
+				0941B04A1E8B8FAB00F0044D /* Tools */,
+				0941B04B1E8B8FAB00F0044D /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0941B0481E8B8FAB00F0044D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0941B0491E8B8FAB00F0044D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0941B04A1E8B8FAB00F0044D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0941B04B1E8B8FAB00F0044D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0941B04C1E8B8FAB00F0044D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0941B04D1E8B8FAB00F0044D /* Controller */,
+				0941B04E1E8B8FAB00F0044D /* Model */,
+				0941B04F1E8B8FAB00F0044D /* Tools */,
+				0941B0501E8B8FAB00F0044D /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0941B04D1E8B8FAB00F0044D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0941B04E1E8B8FAB00F0044D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0941B04F1E8B8FAB00F0044D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0941B0501E8B8FAB00F0044D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0941B0511E8B8FAB00F0044D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +475,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0941AFEB1E8B7D9800F0044D /* ViewController.swift in Sources */,
 				0941AFE91E8B7D9800F0044D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
