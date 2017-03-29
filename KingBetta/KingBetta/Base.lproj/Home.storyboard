@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="N1k-g5-am5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,11 +23,45 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zwm-DG-n8Q"/>
+                    <navigationItem key="navigationItem" id="zwm-DG-n8Q">
+                        <barButtonItem key="leftBarButtonItem" style="done" id="dBI-WA-GhE">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6a5-hO-Rs0">
+                                <rect key="frame" x="16" y="9" width="60" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="logo"/>
+                            </button>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem style="done" id="ew4-o4-Ugb">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qAQ-LA-qW2">
+                                    <rect key="frame" x="329" y="7" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="image_my_history"/>
+                                    <state key="highlighted" image="Image_my_history_click"/>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem style="done" id="pAU-af-pPU">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mYZ-HK-hZL">
+                                    <rect key="frame" x="291" y="7" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="btn_search"/>
+                                    <state key="highlighted" image="btn_search_clicked"/>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem style="done" id="reo-Fq-Dfa">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HSB-jJ-7KV">
+                                    <rect key="frame" x="253" y="7" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Button" image="Image_scan"/>
+                                    <state key="selected" image="Image_scan_click"/>
+                                </button>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wCT-wn-XOv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="887.20000000000005" y="-271.21439280359823"/>
+            <point key="canvasLocation" x="774" y="-404"/>
         </scene>
         <!--首页-->
         <scene sceneID="Wnm-x2-81g">
@@ -31,7 +70,6 @@
                     <tabBarItem key="tabBarItem" title="首页" image="tabHome" selectedImage="tabHomeHL" id="ips-Br-y8a"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="P3j-dW-vkM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -45,46 +83,15 @@
             </objects>
             <point key="canvasLocation" x="-52" y="-271.21439280359823"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="7mA-kS-4rY">
-            <objects>
-                <viewController id="7hI-aX-9AA" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jTj-DG-2xp"/>
-                        <viewControllerLayoutGuide type="bottom" id="X8Z-QF-LL4"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Qg9-Pe-MLe">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="WQk-kv-vte"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="C1R-BL-yri" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="887.20000000000005" y="-271.21439280359823"/>
-        </scene>
-        <!--Item 1-->
-        <scene sceneID="k3y-tO-rk0">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DSR-td-N74" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="EQi-PA-FJp"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zLW-uh-OaY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="7hI-aX-9AA" kind="relationship" relationship="rootViewController" id="tmk-cG-AB9"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AkH-CF-sTN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-52" y="-271.21439280359823"/>
-        </scene>
     </scenes>
     <resources>
+        <image name="Image_my_history_click" width="22" height="22"/>
+        <image name="Image_scan" width="22" height="22"/>
+        <image name="Image_scan_click" width="22" height="22"/>
+        <image name="btn_search" width="22" height="22"/>
+        <image name="btn_search_clicked" width="22" height="22"/>
+        <image name="image_my_history" width="26" height="26"/>
+        <image name="logo" width="66" height="26"/>
         <image name="tabHome" width="24" height="24"/>
         <image name="tabHomeHL" width="24" height="24"/>
     </resources>
