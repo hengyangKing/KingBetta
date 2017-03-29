@@ -414,10 +414,9 @@
 		0941B00E1E8B7D9800F0044D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GLHBVKZG33;
 				INFOPLIST_FILE = KingBetta/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.king.KingBetta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,10 +428,9 @@
 		0941B00F1E8B7D9800F0044D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GLHBVKZG33;
 				INFOPLIST_FILE = KingBetta/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.king.KingBetta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +516,7 @@
 				0941B00F1E8B7D9800F0044D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0941B0101E8B7D9800F0044D /* Build configuration list for PBXNativeTarget "KingBettaTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +525,7 @@
 				0941B0121E8B7D9800F0044D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0941B0131E8B7D9800F0044D /* Build configuration list for PBXNativeTarget "KingBettaUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +534,7 @@
 				0941B0151E8B7D9800F0044D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
